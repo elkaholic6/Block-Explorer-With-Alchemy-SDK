@@ -18,7 +18,6 @@ function LatestTransactions(props) {
             blockTransactions();
         } 
       }, [blocks[0]]);
-      console.log('blocks[0', blocks[0]);
 
       useEffect(() => {
         if(blockTxns) {
